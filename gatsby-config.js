@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter Blog',
-    author: 'Kyle Mathews',
-    description: 'A starter blog demonstrating what Gatsby can do.',
-    siteUrl: 'https://gatsbyjs.github.io/gatsby-starter-blog/',
+    title: 'Queen City Coder ',
+    author: 'John Potts',
+    description: 'An assortment of learnings from John Potts, a front end dev based out of Charlotte, NC',
+    siteUrl: 'https://www.queencitycoder.com',
   },
   pathPrefix: '/gatsby-starter-blog',
   plugins: [

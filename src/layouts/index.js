@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import styles from '../styles/global.css'
 
 import { rhythm, scale } from '../utils/typography'
 
@@ -30,7 +31,7 @@ class Template extends React.Component {
             }}
             to={'/'}
           >
-            Gatsby Starter Blog
+          Queen City Coder
           </Link>
         </h1>
       )

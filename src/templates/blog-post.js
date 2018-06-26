@@ -13,9 +13,9 @@ class BlogPostTemplate extends React.Component {
     const { previous, next } = this.props.pathContext
 
     return (
-      <div>
+      <div className="grey">
         <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
-        <h1>{post.frontmatter.title}</h1>
+        <h1 className="callout-txt">{post.frontmatter.title}</h1>
         <p
           style={{
             ...scale(-1 / 5),
