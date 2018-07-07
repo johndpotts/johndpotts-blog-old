@@ -21,7 +21,7 @@ class Template extends React.Component {
           style={{
             ...scale(1.5),
             marginBottom: rhythm(1.5),
-            marginTop: 0,
+            marginTop: rhythm(3),
           }}
         >
           <Link
@@ -32,7 +32,7 @@ class Template extends React.Component {
             }}
             to={'/'}
           >
-          Queen City Coder
+         John D Potts
           </Link>
         </h1>
       )
@@ -41,7 +41,7 @@ class Template extends React.Component {
         <h3
           style={{
             fontFamily: 'Montserrat, sans-serif',
-            marginTop: 0,
+            marginTop: rhythm(3),
             marginBottom: rhythm(-1),
           }}
         >
@@ -53,7 +53,7 @@ class Template extends React.Component {
             }}
             to={'/'}
           >
-            Queen city Coder
+          John D Potts
           </Link>
         </h3>
       )

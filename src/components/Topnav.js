@@ -4,6 +4,7 @@ import { css } from 'emotion';
 import colors from '../utils/colors';
 //import MobileNav from './mobile';
 import media from '../utils/media';
+import { rhythm } from '../utils/typography'
 
 
 const basicNav = css`
@@ -13,7 +14,7 @@ const basicNav = css`
   align-items: center;
   color: ${colors.primary};
   background-color: ${colors.secondary};
-  margin: 0;
+  padding: 0 ${rhythm(0.5)} 0 ${rhythm(0.5)};
   width: 100%;
   list-style-type: none;
   -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 1);
@@ -45,9 +46,10 @@ const fullNav = css`
     justify-content: flex-end;
     margin-left: auto;
     & li {
-      margin-left: 1.25rem;
+      margin-left: ${rhythm(1.5)};
     }
   }
+  & a {color:#FFF}
   ${media.mid`
     display: flex;
   `};
@@ -129,13 +131,13 @@ class Navigation extends Component {
       <nav>
         <div className={fullNav}>
           <ul>
-            <li>Gatsbythemes.com starter</li>
+            <li>John D Potts</li>
             <div>
               <li>
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/about">About Us</Link>
+                <Link to="/about">About</Link>
               </li>
               <li>
                 <Link to="/blog">Blog</Link>

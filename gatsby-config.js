@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'Queen City Coder ',
+    title: 'John D Potts',
     author: 'John Potts',
     description: 'An assortment of learnings from John Potts, a front end dev based out of Charlotte, NC',
-    siteUrl: 'https://www.queencitycoder.com',
+    siteUrl: 'https://www.johndpotts.com',
   },
   pathPrefix: '/gatsby-starter-blog',
   plugins: [
