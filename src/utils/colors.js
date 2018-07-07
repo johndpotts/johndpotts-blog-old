@@ -6,8 +6,8 @@ const colors = {
   },
   example2: {
     primary: '#fff',
-    secondary: '#85144B',
-    accent: '#333'
+    secondary: '#C06014',
+    accent: '#CDCDCD'
   }
 };
 

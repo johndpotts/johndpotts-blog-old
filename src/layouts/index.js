@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import styles from '../styles/global.css'
 
 import { rhythm, scale } from '../utils/typography'
+import Navigation from '../components/Topnav'
 
 class Template extends React.Component {
   render() {
@@ -52,22 +53,25 @@ class Template extends React.Component {
             }}
             to={'/'}
           >
-            Gatsby Starter Blog
+            Queen city Coder
           </Link>
         </h3>
       )
     }
     return (
-      <div
-        style={{
-          marginLeft: 'auto',
-          marginRight: 'auto',
-          maxWidth: rhythm(24),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-        }}
-      >
-        {header}
-        {children()}
+      <div>
+        <Navigation />
+        <div
+          style={{
+            marginLeft: 'auto',
+            marginRight: 'auto',
+            maxWidth: rhythm(24),
+            padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+          }}
+        >
+          {header}
+          {children()}
+        </div>
       </div>
     )
   }

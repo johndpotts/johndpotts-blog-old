@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import Link from 'gatsby-link';
 import { css } from 'emotion';
-import colors from '../../utils/colors';
-import MobileNav from './mobile';
-import media from '../../utils/media';
+import colors from '../utils/colors';
+//import MobileNav from './mobile';
+import media from '../utils/media';
 
 
 const basicNav = css`
@@ -145,7 +145,7 @@ class Navigation extends Component {
         </div>
         <div className={mobileNav}>
           <ul>
-            <li>Gatsbythemes.com starter</li>
+            <li>Queen City Coder</li>
             <li>
               <div
                 onClick={this.toggleNav}
@@ -159,7 +159,7 @@ class Navigation extends Component {
           </ul>
         </div>
         {this.state.mobileActive && (
-          <MobileNav toggleNav={this.toggleNav} mobileStyle={mobileStyle}>
+        //  <MobileNav toggleNav={this.toggleNav} mobileStyle={mobileStyle}>
             <ul>
               <li>
                 <div
@@ -192,7 +192,7 @@ class Navigation extends Component {
                 </div>
               </li>
             </ul>
-          </MobileNav>
+        //  </MobileNav>
         )}
       </nav>
     );
