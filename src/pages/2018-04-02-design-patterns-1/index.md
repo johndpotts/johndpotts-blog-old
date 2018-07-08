@@ -21,17 +21,16 @@ The module pattern, often presented as an *Immediately-Invoked Function Expressi
 is a great way to keep your code neat and tidy- and make sure you're not making things public that shouldn't be.
  Here's what it looks like:
 
-```
+```js
 (function() {
     // Oh look, I'm hanging out inside a module
     // How wonderful
 }());
  ```
- 
+
  Or, with an ES6 arrow function,
- ```
+ ```js
  (() => {
   // All of the mapping, reducing and filtering. ES6 FTW.
 })();
 ```
-

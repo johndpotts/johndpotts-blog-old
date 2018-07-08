@@ -1,9 +1,10 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styles from '../styles/global.css'
-
 import { rhythm, scale } from '../utils/typography'
 import Navigation from '../components/Topnav'
+require("../styles/prism-tomorrow.css")
+
 
 class Template extends React.Component {
   render() {
