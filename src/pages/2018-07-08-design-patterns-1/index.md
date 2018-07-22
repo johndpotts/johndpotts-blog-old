@@ -1,11 +1,11 @@
 ---
-title: "Design Patterns 1 the Module Pattern"
-date: "2018-04-02T22:12:03.285Z"
-path: "/2018-04-02-design-patterns-1/"
+title: "Design Patterns in JS: The Module Pattern"
+date: "2018-07-08T22:12:03.285Z"
+path: "/2018-07-08-design-patterns-1/"
 featuredImage: "./building-blocks.jpg"
 ---
 
-![Writing](./building-blocks.jpg)
+![Building Blocks](./building-blocks.jpg)
 
 # The Module Pattern
 Back in the 80's there was a popular sitcom called 'Cheers'; the theme song had a warm, familiar line -
