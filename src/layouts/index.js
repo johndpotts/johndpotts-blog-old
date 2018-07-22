@@ -37,6 +37,27 @@ class Template extends React.Component {
           </Link>
         </h1>
       )
+    } else if (location.pathname === `/about`) {
+      header = (
+        <h1
+          style={{
+            ...scale(1.5),
+            marginBottom: rhythm(1.5),
+            marginTop: rhythm(3),
+          }}
+        >
+          <Link
+            style={{
+              boxShadow: 'none',
+              textDecoration: 'none',
+              color: 'inherit',
+            }}
+            to={'/'}
+          >
+        About Me
+          </Link>
+        </h1>
+      )
     } else {
       header = (
         <h3
@@ -67,7 +88,7 @@ class Template extends React.Component {
             marginLeft: 'auto',
             marginRight: 'auto',
             maxWidth: rhythm(24),
-            padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+            padding: `${rhythm(3)} ${rhythm(3 / 4)}`,
           }}
         >
           {header}

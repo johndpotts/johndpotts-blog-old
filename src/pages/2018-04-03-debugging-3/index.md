@@ -6,7 +6,7 @@ featuredImage: "./blueprint.jpg"
 ---
 ![Blueprints](./blueprint.jpg)
 
-# The Factory Pattern
-
-
-
+Debugging network activity in Chrome
+- view waterfall
+- sort by type
+- block sources

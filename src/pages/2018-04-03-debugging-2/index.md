@@ -6,7 +6,10 @@ featuredImage: "./blueprint.jpg"
 ---
 ![Blueprints](./blueprint.jpg)
 
-# The Factory Pattern
+Debugging JS in Chrome
 
-
-
+1. Setting breakpoints
+ - debugger()
+ - break on mods to elements
+ - 
+ - react, ember, vue, angular add-ons

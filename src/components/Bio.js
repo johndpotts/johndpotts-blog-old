@@ -25,9 +25,17 @@ class Bio extends React.Component {
           }}
         />
         <p>
-          Written by <strong>John D Potts</strong>, a developer based out of Charlotte, NC.{' '}
+          Web developer and speaker in Charlotte, NC.{' '}
+          <br/>
+          Connect with me:  &nbsp;
           <a href="https://twitter.com/johndpotts">
-            Follow me on Twitter!
+            TWITTER &nbsp;
+          </a>
+          <a href="https://www.linkedin.com/in/jdpotts189/">
+            LINKEDIN &nbsp;
+          </a>
+          <a href="https://github.com/johndpotts">
+            GITHUB
           </a>
         </p>
       </div>
