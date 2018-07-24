@@ -18,24 +18,7 @@ class Template extends React.Component {
 
     if (location.pathname === rootPath) {
       header = (
-        <h1
-          style={{
-            ...scale(1.5),
-            marginBottom: rhythm(1.5),
-            marginTop: rhythm(3),
-          }}
-        >
-          <Link
-            style={{
-              boxShadow: 'none',
-              textDecoration: 'none',
-              color: 'inherit',
-            }}
-            to={'/'}
-          >
-         John D Potts
-          </Link>
-        </h1>
+      <div></div>
       )
     } else if (location.pathname === `/about`) {
       header = (

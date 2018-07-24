@@ -8,18 +8,10 @@ featuredImage: "./building-blocks.jpg"
 ![Building Blocks](./building-blocks.jpg)
 
 # The Module Pattern
-Back in the 80's there was a popular sitcom called 'Cheers'; the theme song had a warm, familiar line -
-### 'Where everybody knows your name...'
 
-Sounds nice, right? Well, sure, as a human it's nice to be where everyone knows your name... but if the place you're referring
-to is the global namespace in your code, that warm fuzzy feelng can quickly turn into a mess of conflicting variable names
-and all around badness.
+The Module Pattern is one of the most commonly used design patterns in Javascript. The module pattern exists to create privacy and separation in your code- keeping variables and functions out of the global scope.
 
-Enter... the module pattern!
-
-The module pattern, often presented as an *Immediately-Invoked Function Expression* (IIFE) in javascript,
-is a great way to keep your code neat and tidy- and make sure you're not making things public that shouldn't be.
- Here's what it looks like:
+The module pattern presents as an *Immediately-Invoked Function Expression* (IIFE). All that an IIFE does is create a function which is called immediately. Here's an example:
 
 ```js
 (function() {
@@ -34,3 +26,48 @@ is a great way to keep your code neat and tidy- and make sure you're not making 
   // All of the mapping, reducing and filtering. ES6 FTW.
 })();
 ```
+
+All of the variables and functions declared within the IIFE are kept out of the global scope.
+
+The module can also be namespaced in order to lay the groundwork for returning publicly accessible methods and properties:
+ ```js
+ const myModule = (() => {
+  return {
+    publicMethod: function () {
+      console.log('hello.');
+      }
+    }
+})();
+
+myModule.publicMethod();
+// hello.
+```
+
+
+A close relative to the Module Pattern is something called the Revealing Module Pattern. This is a module that returns certain properties or methods in an easy-to-read syntax, thus revealing part of itself for public use:
+
+ ```js
+ const myModule = (() => {
+
+  const privateMethod = function () {
+    console.log(`shhhh, it's a secret`);
+    };
+
+  const privateVariable = 'foo';
+
+  const publicMethod = function () {
+    console.log('hello');
+  };
+
+  const publicVariable = 'bar';
+
+  return {
+    publicMethod: publicMethod,
+    publicVariable: publicVariable
+  };
+
+})();
+
+```
+
+This makes only the defined methods and variables accessible outside the module, and is easy to read since the return object is generally put at the bottom of the module.

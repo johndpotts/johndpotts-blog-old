@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import Link from 'gatsby-link';
 import { css } from 'emotion';
 import colors from '../utils/colors';
-//import MobileNav from './mobile';
 import media from '../utils/media';
 import { rhythm } from '../utils/typography'
+
 
 
 const basicNav = css`
@@ -73,6 +73,7 @@ const mobileNav = css`
   ${media.mid`
     display: none;
   `};
+  color: ${colors.primary};
 `;
 
 // Styles for the overlay which pops up, when the menu is clicked
@@ -140,14 +141,26 @@ class Navigation extends Component {
                 <Link to="/about">About</Link>
               </li>
               <li>
-                <Link to="/blog">Blog</Link>
+                <a className="no-underline" href="https://twitter.com/johndpotts">
+                  <i className = "fa fa-twitter "></i> &nbsp;&nbsp;
+                </a>
+              </li>
+              <li>
+                <a className="no-underline" href="https://www.linkedin.com/in/jdpotts189/">
+                  <i className = "fa fa-linkedin "></i> &nbsp;&nbsp;
+                </a>
+              </li>
+              <li>
+                <a className="no-underline" href="https://github.com/johndpotts">
+                  <i className = "fa fa-github "></i> &nbsp;&nbsp;
+                </a>
               </li>
             </div>
           </ul>
         </div>
         <div className={mobileNav}>
           <ul>
-            <li>Queen City Coder</li>
+            <li>John D Potts</li>
             <li>
               <div
                 onClick={this.toggleNav}
@@ -161,40 +174,70 @@ class Navigation extends Component {
           </ul>
         </div>
         {this.state.mobileActive && (
-        //  <MobileNav toggleNav={this.toggleNav} mobileStyle={mobileStyle}>
+          <div  className={mobileStyle}>
             <ul>
+            <li>
+              <div
+                onClick={this.toggleNav}
+                role="button"
+                tabIndex="0"
+                style={{color:'#FFF'}}
+                onKeyPress={this.toggleNav}
+              >
+                <Link
+                style={{color:'#FFF'}}
+                 to="#">X</Link>
+              </div>
+            </li>
               <li>
                 <div
                   onClick={this.toggleNav}
                   role="button"
                   tabIndex="0"
+                  style={{color:'#FFF'}}
                   onKeyPress={this.toggleNav}
                 >
-                  <Link to="/">Home</Link>
+                  <Link
+                  style={{color:'#FFF'}}
+                   to="/">Home</Link>
                 </div>
               </li>
               <li>
                 <div
                   onClick={this.toggleNav}
                   role="button"
+                  style={{color:'#FFF'}}
                   tabIndex="-1"
                   onKeyPress={this.toggleNav}
                 >
-                  <Link to="/about">About</Link>
+                  <Link
+                  style={{color:'#FFF'}}
+                 to="/about">About</Link>
                 </div>
               </li>
               <li>
-                <div
-                  onClick={this.toggleNav}
-                  role="button"
-                  tabIndex="-1"
-                  onKeyPress={this.toggleNav}
-                >
-                  <Link to="/blog">Blog</Link>
-                </div>
+                <a
+                  style={{color:'#FFF'}}
+                className="no-underline" href="https://twitter.com/johndpotts">
+                  <i className = "fa fa-twitter "></i> &nbsp;&nbsp;
+                </a>
+              </li>
+              <li>
+                <a
+                style={{color:'#FFF'}}
+                className="no-underline" href="https://www.linkedin.com/in/jdpotts189/">
+                  <i className = "fa fa-linkedin "></i> &nbsp;&nbsp;
+                </a>
+              </li>
+              <li>
+                <a
+                style={{color:'#FFF'}}
+                className="no-underline" href="https://github.com/johndpotts">
+                  <i className = "fa fa-github "></i> &nbsp;&nbsp;
+                </a>
               </li>
             </ul>
-        //  </MobileNav>
+          </div>
         )}
       </nav>
     );
