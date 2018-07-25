@@ -9,9 +9,27 @@ featuredImage: "./debugging2.jpg"
 
 
 
-Debugging CSS issues in Chrome
+Working with HTML and CSS in Chrome
 
-1. Add / Remove classes
-2. Computed styles view
-3. error class
-4. change state to hover, etc
+You can start exploring HTML in Chrome Dev Tools by opening up a tab in Chrome and either right clicking on the page and selecting 'inspect' or pressing Ctrl + Shift + J (on windows) or Cmd + Opt + J (on a mac). This will open up the dev tools console.
+Navigate to the 'Elements' tab to start exploring the DOM. You can copy elements, delete elements, move elements, and modify them inline either by selecting them and coosing 'edit as html' or simply double clicking on the element.
+
+One small caveat on troubleshooting HTML in dev tools - Chrome will automatically try to fix errors in your markup by doing things like inserting missing closing tags, etc. So if you are having issues where it seems like your HTML might be to blame, it's better to just copy and paste the source into a tool like [The W3 Markup Validator](https://validator.w3.org/) to check for errors in your HTML.
+
+Let's jump into checking out our CSS. Chrome Dev Tools offers a ton of functionality on this front. The second pane under the 'Elements' tab offers two tabs that are important to use when troubleshooting CSS: the 'Styles' tab and the 'Computed' tab.
+
+Click on the 'styles' tab. You'll notice here that you have a list of styles affecting the DOM element you have selected in the 'elements' pane. The styles go from the highest priority (lowest on the cascade)
+on top to lowest priority (highest in the cascade) on the bottom. Styles that have been overridden are crossed out, and you can see a link to the file that contains that style next to it.
+
+If you click on the ':hov' option, you will see a drop-down with a number of element states you can apply in order to see styles under those states. These include 'focus', 'active' and 'hover'.
+
+If you click on the '.cls' option, you can enter classes to apply to the given element.
+
+The 'computed' tab gives a slightly different take on examining styles. (note that at certain breakpoints and settings this will instead appear as a third pane next to the style pane, and there will not be a tab for it) Instead of sorting the styles out by source, it shows the user all of the different style rules affecting the given element. There is also a visual guide showing the box model around the element with height/width, padding, border, and margin.
+If you click on any of the styles in the 'computed' pane, you can see all of the individual style rules affecting that property on the element. Overridden styles are crossed out. There is also a link to the file conaining the style.
+
+At the bottom of the 'computed' pane you'll see a list of rendered fonts as well.
+
+Notice if you click on a link to a style with an associated CSS file, the file opens up in the 'sources' pane. Since CSS is often minified, you might need to click on the 'beautify' option, signified by curly brackets -> {}.
+
+You can edit the CSS file and see changes reflected in the browser; you don't need to save in order to see the changes reflected- just type them in!

@@ -1,15 +1,15 @@
 ---
 title: "Essential Developer Strengths"
-date: "2018-07-05T22:12:03.284Z"
-path: "/2018-07-05-developer-strengths/"
+date: "2018-07-02T22:12:03.284Z"
+path: "/2018-07-02-developer-strengths/"
 featuredImage: "./strength.jpeg"
 ---
 ![Strength](./strength.jpeg)
 
 # Essential Developer Strengths?
 
-I read a blog post the other day detailing the "Top Strengths Every Developer Needs."
-While the post made some good points, my own observations have led me to a decidedly different conclusion about the strengths needed to be a successful web dev.
+I read a blog post the other day detailing the "Top Strengths Every Developer Needs." It pointed out a few key traits the author believed a person should have in order to be a great developer.
+While the post made some good points, my own observations have led me to a decidedly different conclusion about the strengths needed to be a successful dev.
 
 I know a number of people with very unique personalities and skill sets - all of whom I would consider to be “good developers”. Some are strong problem solvers. Others have an incredible attention to detail. Some work in brief strokes of brilliance and others at a predictable pace. There are many people who are very different and who all do well in this field. So what makes a good software developer? I would argue only one thing: it takes someone who enjoys it.
 

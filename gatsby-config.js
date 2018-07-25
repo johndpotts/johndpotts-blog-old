@@ -5,7 +5,7 @@ module.exports = {
     description: 'An assortment of learnings from John Potts, a front end dev based out of Charlotte, NC',
     siteUrl: 'https://www.johndpotts.com',
   },
-  pathPrefix: '/gatsby-starter-blog',
+  pathPrefix: '/johndpotts.github.io',
   plugins: [
     `gatsby-transformer-sharp`,
     {

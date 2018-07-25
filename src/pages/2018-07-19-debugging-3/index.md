@@ -9,8 +9,40 @@ featuredImage: "./debugging3.jpg"
 
 Debugging JS in Chrome
 
-1. Setting breakpoints
- - debugger()
- - break on mods to elements
- -
- - react, ember, vue, angular add-ons
+```js
+console.log(myObject);
+console.log(this);
+console.log('ARGGGGGGHHHHH');
+```
+
+If the above snippet looks familiar, it's time for you to become better aquainted with the JS debugging capabilities of Chrome Dev Tools.
+
+This post is certainly not exhaustive, but I will hit on a few key things that you should know are available to you when debugging on the front end.
+
+First of all, the console api has quite a few more methods available than the plain `console.log()`.
+
+| Method | Result |
+| ------------- | ------------- |
+`console.table()`    | outputs a table detailing properties of an object
+ `console.info()`     | outputs an informational log
+ `console.warn()` | outputs a warning log
+ `console.error()` | outputs an error log     
+ `console.assert()` | makes an assertion that evaluates to `true` or `false`      
+`console.error()` | outputs an error log      
+ `console.error()` | outputs an error log      
+`console.groupCollapsed()`/`console.groupEnd()`| outputs a collapsed group of console messages from console.log() statements in between
+`console.clear()`|clears out the console
+`console.count()`|outputs a count of the number of times the argument is called
+`console.time()`/`console.timeEnd()`|serves as a stopwatch for timing execution of code
+
+But to see what's happening in your script, you don't have to put any console methods in your script. Simply putting in the line `debugger();` will cause the code to pause execution at that line when you have dev tools open.
+
+You can also set breakpoints from within dev tools. Right clicking an element will enable you to set breakpoints on that element's attribute/subtree modifications or node removal. Additionally, you can view event listeners for the element under the 'event listener' tab in the elements pane.
+
+When your code is paused in debugging mode, you have a number of options available to you. You can resume code execution or choose to step through the code by function or line-by-line. You can set watch statements, which will show you the current value of variables that you enter in. You can also view the function call stack and the scope of your code (including what variables and methods are contained within the scope.)
+
+You can do a great deal with breakpoints inside the JS debugging pane; you can choose to set more breakpoints on certain events, to pause on exceptions, or to clear all breakpoints.
+
+There are all kinds of options open in Chrome Dev tools to examine the execution of your Javascript files. Take advantage of them, and you'll find debugging happens much more quickly!
+
+You can also choose to open the source JS files that are running on the page; you can make edits to these (but you'll need to save them for the edits to take effect)
