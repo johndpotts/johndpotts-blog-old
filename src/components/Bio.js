@@ -1,6 +1,4 @@
 import React from 'react'
-
-
 import '../styles/css/font-awesome.css'
 import profilePic from './profile-pic.jpg'
 import { rhythm } from '../utils/typography'

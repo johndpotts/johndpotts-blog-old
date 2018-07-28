@@ -2,7 +2,7 @@ import { css } from 'react-emotion';
 
 const sizes = {
   large: 1024,
-  mid: 832,
+  mid: 768,
   small: 640
 };
 

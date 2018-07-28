@@ -20,28 +20,7 @@ class Template extends React.Component {
       header = (
       <div></div>
       )
-    } else if (location.pathname === `/about`) {
-      header = (
-        <h1
-          style={{
-            ...scale(1.5),
-            marginBottom: rhythm(1.5),
-            marginTop: rhythm(3),
-          }}
-        >
-          <Link
-            style={{
-              boxShadow: 'none',
-              textDecoration: 'none',
-              color: 'inherit',
-            }}
-            to={'/'}
-          >
-        About Me
-          </Link>
-        </h1>
-      )
-    } else {
+    }  else {
       header = (
         <h3
           style={{

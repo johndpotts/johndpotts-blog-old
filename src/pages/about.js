@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
+import profilePic from '../assets/profile-pic.jpg'
 
 
 import Bio from '../components/Bio'
@@ -18,23 +19,34 @@ class BlogAbout extends React.Component {
       <div>
 
         <Helmet title={siteTitle} />
-        <Bio/>
+      <h1 className="callout-txt"
+      style = {{textAlign:'center'}}
+      >About Me</h1>
 
       <div>
-      <p>
-      Hi, I'm John. I love building things. I love to laugh. I love solving problems, working with a team, and learning new things every day.
-I grew up in Seattle, lived in Florida, then discovered that Charlotte makes a great middle ground.
+      <img
+      src={profilePic}
+      alt={`John D Potts`}
+      style={{
+display:'block',
+marginRight: 'auto',
+        marginLeft:'auto',
+        marginBottom:  rhythm(2),
+        width: rhythm(10),
+        height: rhythm(10),
+      }}
+      />
+      <h2>Hi, I'm John.</h2>
+        <p>
+      I started out in development in June of 2017. A self-taught developer, I began my first full-time development role in November 2017 and am currently a Front End Developer at Ally Financial.
+      I work primarily on the front end, but have experience in python and C#/.net as well. Outside of my career as a developer I enjoy contributing to open source and teaching / giving tech talks.
 
-
-</p>
-      <p>
-      Why do I love coding?
-      <ol>
-      <li>It's where the practical and the creative collide.</li>
-      <li>It offers a new challenge every day. </li>
-      <li>You get to make cool stuff with nothing but your brain, a bunch of 1's and 0's, and regular conversations with google and stack overflow.</li>
-      </ol>
-      </p>
+          </p>
+          <p>
+          I am a dad of 4, husband of 1, and a lifelong learner. I'm also a musician and love the outdoors, and my favorite comic strip is Calvin & Hobbes!
+</p><p>
+          Please feel free to hit me up on Github or Linkedin, or drop me an email at <a href="mailto:jdpotts189@gmail.com?Subject=Hi%20John" target="_top">jdpotts189@gmail.com</a>. Thanks for stopping by!
+          </p>
       </div>
       </div>
     )

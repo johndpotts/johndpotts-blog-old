@@ -1,114 +1,9 @@
 import React, { Component } from 'react';
 import Link from 'gatsby-link';
-import { css } from 'emotion';
 import colors from '../utils/colors';
-import media from '../utils/media';
 import { rhythm } from '../utils/typography'
 
 
-
-const basicNav = css`
-  display: flex;
-  position: fixed;
-  top: 0;
-  align-items: center;
-  color: ${colors.primary};
-  background-color: ${colors.secondary};
-  padding: 0 ${rhythm(0.5)} 0 ${rhythm(0.5)};
-  width: 100%;
-  list-style-type: none;
-  -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 1);
-  -moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 1);
-  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 1);
-  z-index: 9998;
-  height: 3.5rem;
-  & ul {
-    list-style-type: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-  }
-`;
-
-const fullNav = css`
-  ${basicNav};
-  display: none;
-  & li {
-    margin: 0;
-  }
-  & li img {
-    display: inline-block;
-    vertical-align: middle;
-  }
-  & ul div {
-    display: flex;
-    justify-content: flex-end;
-    margin-left: auto;
-    & li {
-      margin-left: ${rhythm(1.5)};
-    }
-  }
-  & a {color:#FFF}
-  ${media.mid`
-    display: flex;
-  `};
-`;
-
-// Styles for the mobile View of the navigation
-const mobileNav = css`
-  ${basicNav};
-  & li {
-    margin: 0;
-  }
-  & li:last-child {
-    margin-left: auto;
-    font-weight: 600;
-    cursor: pointer;
-  }
-  & li img {
-    display: block;
-    margin: auto;
-  }
-  ${media.mid`
-    display: none;
-  `};
-  color: ${colors.primary};
-`;
-
-// Styles for the overlay which pops up, when the menu is clicked
-const mobileStyle = css`
-  position: fixed;
-  background-color: ${colors.secondary};
-  color: ${colors.primary};
-  display: block;
-  padding: 1rem;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 9999;
-  & ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 3rem 0 0 0;
-    height: 100%;
-    text-align: center;
-    font-size: 2rem;
-    & div {
-      text-align: center;
-    }
-  }
-  & ul li {
-    margin-top: 2rem;
-  }
-  & div {
-    font-weight: 600;
-    text-align: right;
-  }
-`;
 
 class Navigation extends Component {
   constructor(props) {
@@ -130,9 +25,9 @@ class Navigation extends Component {
   render() {
     return (
       <nav>
-        <div className={fullNav}>
+        <div className='fullNav'>
           <ul>
-            <li>John D Potts</li>
+            <li><Link to="/">John D Potts</Link></li>
             <div>
               <li>
                 <Link to="/">Home</Link>
@@ -158,23 +53,34 @@ class Navigation extends Component {
             </div>
           </ul>
         </div>
-        <div className={mobileNav}>
+        <div className='mobileNav'>
           <ul>
-            <li>John D Potts</li>
             <li>
-              <div
+              <Link
+              style = {{color:"#FFF"}}
+              to="/">John D Potts</Link>
+            </li>
+            <li>
+              <button
                 onClick={this.toggleNav}
                 role="button"
                 tabIndex="0"
+                style={{
+                  display:"block",
+                  color:'#FFF',
+                  backgroundColor: "#C06014",
+                  borderWidth:"0",
+                  cursor:"pointer"
+                }}
                 onKeyPress={this.toggleNav}
               >
                 MENU
-              </div>
+              </button>
             </li>
           </ul>
         </div>
         {this.state.mobileActive && (
-          <div  className={mobileStyle}>
+          <div  className='mobileStyle'>
             <ul>
             <li>
               <div
@@ -184,9 +90,9 @@ class Navigation extends Component {
                 style={{color:'#FFF'}}
                 onKeyPress={this.toggleNav}
               >
-                <Link
+                <a
                 style={{color:'#FFF'}}
-                 to="#">X</Link>
+                 href="#">X</a>
               </div>
             </li>
               <li>

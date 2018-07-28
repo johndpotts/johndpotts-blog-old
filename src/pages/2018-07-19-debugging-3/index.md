@@ -37,9 +37,13 @@ First of all, the console api has quite a few more methods available than the pl
 
 But to see what's happening in your script, you don't have to put any console methods in your script. Simply putting in the line `debugger();` will cause the code to pause execution at that line when you have dev tools open.
 
+![Debug Mode](./debug-mode.png)
+
 You can also set breakpoints from within dev tools. Right clicking an element will enable you to set breakpoints on that element's attribute/subtree modifications or node removal. Additionally, you can view event listeners for the element under the 'event listener' tab in the elements pane.
 
 When your code is paused in debugging mode, you have a number of options available to you. You can resume code execution or choose to step through the code by function or line-by-line. You can set watch statements, which will show you the current value of variables that you enter in. You can also view the function call stack and the scope of your code (including what variables and methods are contained within the scope.)
+
+![Source view](./script.png)
 
 You can do a great deal with breakpoints inside the JS debugging pane; you can choose to set more breakpoints on certain events, to pause on exceptions, or to clear all breakpoints.
 

@@ -1,5 +1,133 @@
+
+
 .callout-txt{color: #C06014}
 .peach{background-color: #EDDBCD}
 .black-txt {color: #111111}
 .grey{background-color: #CDCDCD}
 a.no-underline:hover{text-decoration: none}
+
+
+.fullNav {
+display: flex;
+position: fixed;
+top: 0;
+align-items: center;
+color: #FFF;
+background-color: #C06014;
+padding: 0 .5rem 0 .5rem;
+width: 100%;
+list-style-type: none;
+-webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 1);
+-moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 1);
+box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 1);
+z-index: 9998;
+height: 3.5rem;
+}
+.fullNav ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.fullNav li {
+    margin: 0;
+  }
+  .fullNav li img {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .fullNav ul div {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+  }
+
+  .fullNav ul div li {
+    margin-left: 1.5rem;
+  }
+.fullNav a {color:#FFF}
+
+
+
+.mobileNav {
+display: flex;
+position: fixed;
+top: 0;
+align-items: center;
+color: #FFF;
+background-color: #C06014;
+padding: 0 .5rem 0 .5rem;
+width: 100%;
+list-style-type: none;
+-webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 1);
+-moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 1);
+box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 1);
+z-index: 9998;
+height: 3.5rem;
+
+  @media only screen and (min-width: 768px) {
+      display: none;
+  }
+
+};
+
+
+  .mobileNav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+.mobileNav li {
+      margin: 0;
+    }
+
+     .mobileNav li:last-child {
+      margin-left: auto;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+     .mobileNav li img {
+      display: block;
+      margin: auto;
+    }
+
+
+
+    .mobileStyle{
+      position: fixed;
+      background-color: #C06014;
+      color: #FFF;
+      display: block;
+      padding: 1rem;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 9999;
+    }
+
+    .mobileStyle ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 1.5rem 0 0 0;
+      height: 100%;
+      text-align: center;
+      font-size: 2rem;
+      & div {
+        text-align: center;
+      }
+    }
+    .mobileStyle ul li {
+      margin-top: 1rem;
+    }
+    .mobileStyle div {
+      font-weight: 600;
+      text-align: right;
+    }
