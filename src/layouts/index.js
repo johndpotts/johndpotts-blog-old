@@ -3,8 +3,7 @@ import Link from 'gatsby-link'
 import styles from '../styles/global.css'
 import { rhythm, scale } from '../utils/typography'
 import Navigation from '../components/Topnav'
-require("../styles/prism-tomorrow.css")
-
+require('../styles/prism.css')
 
 class Template extends React.Component {
   render() {
@@ -17,10 +16,8 @@ class Template extends React.Component {
     }
 
     if (location.pathname === rootPath) {
-      header = (
-      <div></div>
-      )
-    }  else {
+      header = <div />
+    } else {
       header = (
         <h3
           style={{
@@ -37,7 +34,7 @@ class Template extends React.Component {
             }}
             to={'/'}
           >
-          John D Potts
+            John D Potts
           </Link>
         </h3>
       )
