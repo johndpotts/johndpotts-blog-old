@@ -3,7 +3,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 .bio-picture {
   margin-right: 1rem;
@@ -11,6 +11,7 @@
   width: 7rem;
   height: 7rem;
   border-radius: 50%;
+  filter: grayscale(40%);
 }
 .bio-text {
   display: inline-block;
@@ -25,6 +26,7 @@
   .bio-picture {
     width: 6rem;
     height: 6rem;
+    margin-right: 0rem;
   }
   .bio-text {
     text-align: center;
@@ -59,13 +61,11 @@ a.no-underline:hover {
   top: 0;
   align-items: center;
   color: #fff;
-  background-color: #c06014;
+  background-color: #666666;
   padding: 0 0.5rem 0 0.5rem;
   width: 100%;
   list-style-type: none;
-  -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 1);
-  -moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 1);
-  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 1);
+  
   z-index: 9998;
   height: 3.5rem;
 }
@@ -102,13 +102,11 @@ a.no-underline:hover {
   top: 0;
   align-items: center;
   color: #fff;
-  background-color: #c06014;
+  background-color: #666666;
   padding: 0 0.5rem 0 0.5rem;
   width: 100%;
   list-style-type: none;
-  -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 1);
-  -moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 1);
-  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 1);
+
   z-index: 9998;
   height: 3.5rem;
 
@@ -142,7 +140,7 @@ a.no-underline:hover {
 
 .mobileStyle {
   position: fixed;
-  background-color: #c06014;
+  background-color: #666666;
   color: #fff;
   display: block;
   padding: 1rem;
@@ -172,4 +170,8 @@ a.no-underline:hover {
 .mobileStyle div {
   font-weight: 600;
   text-align: right;
+}
+
+h3 a{
+  color:#c06014
 }

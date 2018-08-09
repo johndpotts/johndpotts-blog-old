@@ -77,7 +77,7 @@ class Navigation extends Component {
                 style={{
                   display: 'block',
                   color: '#FFF',
-                  backgroundColor: '#C06014',
+                  backgroundColor: '#666666',
                   borderWidth: '0',
                   cursor: 'pointer',
                 }}
