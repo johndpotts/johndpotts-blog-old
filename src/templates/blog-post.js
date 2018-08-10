@@ -15,7 +15,11 @@ class BlogPostTemplate extends React.Component {
     return (
       <div>
         <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
-        <h1 className="callout-txt">{post.frontmatter.title}</h1>
+        <h1 
+        style={{
+          marginTop:rhythm(.5)
+        }}
+        className="callout-txt">{post.frontmatter.title}</h1>
         <p
           style={{
             ...scale(-1 / 5),

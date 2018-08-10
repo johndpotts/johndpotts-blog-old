@@ -15,42 +15,30 @@ class Template extends React.Component {
       rootPath = __PATH_PREFIX__ + `/`
     }
 
-    if (location.pathname === rootPath) {
-      header = <div />
+    if (location.pathname == rootPath) {
+      header = <div 
+      style={{
+        paddingTop: rhythm(5)
+      }}
+      ></div>
     } else {
       header = (
-        <h3
-          style={{
-            fontFamily: 'Montserrat, sans-serif',
-            marginTop: rhythm(3),
-            marginBottom: rhythm(-1),
-          }}
-        >
-          <Link
-            style={{
-              boxShadow: 'none',
-              textDecoration: 'none',
-              color: 'inherit',
-            }}
-            to={'/'}
-          >
-            John D Potts
-          </Link>
-        </h3>
+       <div></div>
       )
     }
     return (
       <div>
         <Navigation />
+        header()
         <div
           style={{
             marginLeft: 'auto',
             marginRight: 'auto',
             maxWidth: rhythm(24),
-            padding: `${rhythm(3)} ${rhythm(3 / 4)}`,
+            padding: `${rhythm(2)} ${rhythm(3 / 4)}`,
           }}
         >
-          {header}
+         
           {children()}
         </div>
       </div>

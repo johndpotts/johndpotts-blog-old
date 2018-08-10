@@ -16,7 +16,7 @@ If you've worked with javascript for any amount of time, you've likely already i
 
 Let's look at an example in code:
 
-js```
+```js
 function Subject() {
     this.observers = [];  
 }
@@ -83,7 +83,8 @@ function run() {
      // "observer 2 responsing to event 3"
 	 // "observer 3 responsing to event 3"
 	 // "observer 1 responsing to event 3"
-	 // (note that since observer 1 was push onto the back of the array it is now firing last)
+     /* (note that since observer 1 was pushed
+     onto the back of the array it is now firing last)*/
 }
 
 run();
