@@ -1,12 +1,16 @@
 ---
 title: "Front End Debugging: Key Steps"
-date: "2018-07-12T05:15:09.284Z"
-path: "/2018-07-12-debugging-1/"
+date: "2018-06-09"
+path: "/2018-06-09-debugging-1/"
 featuredImage: "./debugging1.jpg"
 ---
 ![Debugging](./debugging1.jpg)
 
-This is the first post in a four-part series on debugging. In this post I'll deal with an overall approach to front end debugging, while the following posts will go into greater depth on Chrome Dev Tools as a debugging tool.
+Ever lose a quarter in the ball pit at Chucky Cheese? That's what debugging front-end code can feel like. Diving in again and again, blindly reaching only to come up empty-handed. 
+
+Over my time working on front-end code I've come up with a few methods to make debugging *slightly* less painful; in this four-post series I'll share some of the most valuable tips and tricks I've picked up to help with the debugging process.
+
+ In this post I'll deal with an overall approach to front end debugging, while the following posts will go into greater depth on Chrome Dev Tools as a debugging tool.
 
 ## Key Steps: Ten Common Mistakes in Front End Debugging
 
@@ -25,7 +29,7 @@ Isolate the problem. You want to be working with as few lines of code and variab
 ##### The Mistake:
 Just trying to see what’s going on is taking forever.
 ##### The Solution:
-Learn your tools. Browser devloper tools have come a long way, and chances are if you're trying to see something, there's a way to do it in Chrome or Firefox dev tools. One of the best investments you can make as a front end dev is to take an online course or two in dev tools.
+Learn your tools. Browser developer tools have come a long way, and chances are if you're trying to see something, there's a way to do it in Chrome or Firefox dev tools. One of the best investments you can make as a front end dev is to take an online course or two in dev tools.
 
 ##### The Mistake:
 You’re not sure if this is a framework problem, a logical problem, or just a cruel practical joke.
@@ -60,4 +64,4 @@ Ask for help. This was especially tough for me as a junior developer- I wanted t
 ##### The Mistake:
 You followed all of the above steps and still ran into a crazy edge case that took you all day to get through.
 ##### The Solution:
-Truth is, no matter how well you approach things, debugging is hard. Sometimes weird things happen, and you'll beat your head against a wall for hours in order to find a problem. These are the days that make development frustrating... but the feeling when you find the fix to the problem is also what makes development so fun! So go home, have a beer, and live to fight another day!
+Truth is, no matter how well you approach things, debugging is hard. Sometimes weird things happen, and you'll beat your head against a wall for hours in order to find a problem. These are the days that make development frustrating... but the feeling when you find the fix to the problem is also what makes development so fun! So go home, relax and recover, and live to fight another day!

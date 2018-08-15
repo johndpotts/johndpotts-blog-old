@@ -1,12 +1,12 @@
 ---
 title: "Front End Debugging 4: Network Tab and More"
-date: "2018-07-22T05:15:09.284Z"
-path: "/2018-07-22-debugging-4/"
+date: "2018-06-30"
+path: "/2018-06-30-debugging-4/"
 featuredImage: "./debugging4.jpg"
 ---
 ![Debugging](./debugging4.jpg)
 
-The `network` tab in Chrome dev tools offers a number of troubleshooting helpers for sniffing out problems with page load and network requests.
+The network tab in Chrome dev tools offers a number of troubleshooting helpers for sniffing out problems with page load and network requests.
 This tab displays a waterfall detailing how long a page takes to load, and the time each resource contributes to that load time.
 
 ![Network Tab](./waterfall.png)

@@ -2,10 +2,10 @@ module.exports = {
   siteMetadata: {
     title: 'John D Potts',
     author: 'John Potts',
-    description: 'An assortment of learnings from John Potts, a front end dev based out of Charlotte, NC',
+    description: 'The blog and website of John Potts, a front end developer based out of Charlotte, NC',
     siteUrl: 'https://www.johndpotts.com',
   },
-  pathPrefix: '/johndpotts.github.io',
+  pathPrefix: 'www.johndpotts.com',
   plugins: [
     `gatsby-transformer-sharp`,
     {

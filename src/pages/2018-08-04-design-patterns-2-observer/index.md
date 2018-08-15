@@ -6,7 +6,7 @@ featuredImage: "./observer.jpg"
 ---
 ![Observation Glasses](./observer.jpg)
 
-This summer, I had a weed problem in one of my garden plots. Some invasive vines got started among my tomato plants, and in about a week and a half had sent runners up and around the tomatoes. The vines had wrapped around the tomato plants numerous times, making the process of extracting them time consuming and diffucult- after all, if I pulled the vines out without being careful I could damage my tomatoes!
+One big challenge for developers, especially in larger applications, is to avoid tight coupling between components. I had a great "real-world" example of tight coupling in my garden this summer.  Some invasive vines got started among my tomato plants, and in about a week and a half had sent runners up and around the tomatoes. The vines had wrapped around the tomato plants numerous times, making the process of extracting them time consuming and difficult- after all, if I pulled the vines out without being careful I could damage my tomatoes!
 
 If you've ever worked in an application where components were tightly coupled, you've felt this pain as well. Tight coupling of components is an enemy of good software design. Components should be built in a way that leaves a developer free to pull out, modify, and refactor them individually.
 

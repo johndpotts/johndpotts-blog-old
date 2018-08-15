@@ -1,21 +1,20 @@
 ---
 title: "Front End Debugging: HTML and CSS"
-date: "2018-07-16T05:15:09.284Z"
-path: "/2018-07-16-debugging-2/"
+date: "2018-06-16"
+path: "/2018-06-16-debugging-2/"
 featuredImage: "./debugging2.jpg"
 ---
 ![Debugging](./debugging2.jpg)
 
 
 
-
-Working with HTML and CSS in Chrome
+Chrome dev tools offers a number of great features for working with HTML and CSS - right in the browser!
 
 You can start exploring HTML in Chrome Dev Tools by opening up a tab in Chrome and either right clicking on the page and selecting 'inspect' or pressing Ctrl + Shift + J (on windows) or Cmd + Opt + J (on a mac). This will open up the dev tools console.
 
 ![Elements Tab](./elements.png)
 
-Navigate to the 'Elements' tab to start exploring the DOM. You can copy elements, delete elements, move elements, and modify them inline either by selecting them and coosing 'edit as html' or simply double clicking on the element.
+Navigate to the 'Elements' tab to start exploring the DOM. You can copy elements, delete elements, move elements, and modify them inline either by selecting them and choosing 'edit as html' or simply double clicking on the element.
 
 One small caveat on troubleshooting HTML in dev tools - Chrome will automatically try to fix errors in your markup by doing things like inserting missing closing tags, etc. So if you are having issues where it seems like your HTML might be to blame, it's better to just copy and paste the source into a tool like [The W3 Markup Validator](https://validator.w3.org/) to check for errors in your HTML.
 
@@ -39,7 +38,7 @@ The 'computed' tab gives a slightly different take on examining styles. (note th
 ![Computed Tab](./computed.png)
 
 Instead of sorting the styles out by source, it shows the user all of the different style rules affecting the given element. There is also a visual guide showing the box model around the element with height/width, padding, border, and margin.
-If you click on any of the styles in the 'computed' pane, you can see all of the individual style rules affecting that property on the element. Overridden styles are crossed out. There is also a link to the file conaining the style.
+If you click on any of the styles in the 'computed' pane, you can see all of the individual style rules affecting that property on the element. Overridden styles are crossed out. There is also a link to the file containing the style.
 
 At the bottom of the 'computed' pane you'll see a list of rendered fonts as well.
 

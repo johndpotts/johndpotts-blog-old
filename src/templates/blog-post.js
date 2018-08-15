@@ -1,8 +1,8 @@
+
 import React from 'react'
 import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
-
 import Bio from '../components/Bio'
 import { rhythm, scale } from '../utils/typography'
 
@@ -14,7 +14,19 @@ class BlogPostTemplate extends React.Component {
 
     return (
       <div>
-        <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
+        <Helmet>
+        <title>{`${post.frontmatter.title} | ${siteTitle}`}</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta property="og:title" content={`${post.frontmatter.title} | ${siteTitle}`}/>
+        <meta property="og:description" content={post.excerpt}/>
+        <meta property="og:image" content={`http://www.johndpotts.com${post.frontmatter.featuredImage.childImageSharp.sizes.src}`}/>
+        <meta property="og:url" content={`http://www.johndpotts.com${post.fields.slug}`}/>
+        <meta name="twitter:card" content="summary"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:locale" content="en_US"/>
+         <link rel="canonical" href={`http://www.johndpotts.com${post.fields.slug}`}/>
+        </Helmet>
         <h1 
         style={{
           marginTop:rhythm(.5)
@@ -81,9 +93,21 @@ export const pageQuery = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       html
+      excerpt
+      fields {
+        slug
+        
+      }
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        featuredImage {
+              childImageSharp{
+                  sizes(maxWidth: 1000) {
+                      src
+                  }
+              }
+          }
       }
     }
   }

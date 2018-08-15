@@ -1,7 +1,7 @@
 ---
 title: "Writing Better Emails as a Developer"
-date: "2018-07-28"
-path: "/2018-07-28-writing-emails/"
+date: "2018-07-14"
+path: "/2018-07-14-writing-emails/"
 featuredImage: "./email.jpeg"
 ---
 ![Email](./email.jpeg)
@@ -18,7 +18,7 @@ Just like writing clean, modular and reusable code, sending clear interpersonal 
 
 Since emails are often a primary source of communication within organizations, I thought I'd share a few tips on making them better. Many of these tips could apply to other forms of written communication as well.  It's nowhere near exhaustive, but if you apply these lessons to your written communication they should save you time, confusion, and help you do your job more effectively.
 
-### 7 Checkpoints for a good Email
+### 5 Checkpoints for a good Email
 
 
 1. Clear Action Steps
@@ -37,7 +37,7 @@ Along those lines, take the moments you can to express encouragement and gratitu
 5. Include Pertinent Information
 Sometimes you'll need to add someone in to a long email chain to bring them up to speed (how many times have you read the line "Copying ****** for awareness"?)
 When this happens, and in other cases when someone will need to do some catching up, it helps them if you can give a brief summary of info they'll need to know.
-Similar concepts include stickies on forums or master readme's in code repos.
+Similar concepts include stickies on forums or a master readme in code repos.
 
 
 I hope this helps you when you sit down to reply to the 50 emails you received while reading this :) Remember, the way you communicate is just as important as the way you code - so go do it with excellence!

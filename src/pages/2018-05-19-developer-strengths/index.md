@@ -1,12 +1,11 @@
 ---
 title: "Essential Developer Strengths"
-date: "2018-07-02T22:12:03.284Z"
-path: "/2018-07-02-developer-strengths/"
+date: "2018-05-19"
+path: "/2018-05-19-developer-strengths/"
 featuredImage: "./strength.jpeg"
 ---
 ![Strength](./strength.jpeg)
 
-# Essential Developer Strengths?
 
 I read a blog post the other day detailing the "Top Strengths Every Developer Needs." It pointed out a few key traits the author believed a person should have in order to be a great developer.
 While the post made some good points, my own observations have led me to a decidedly different conclusion about the strengths needed to be a successful dev.

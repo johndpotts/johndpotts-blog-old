@@ -10,11 +10,24 @@ import { rhythm } from '../utils/typography'
 class BlogAbout extends React.Component {
   render() {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
-    const posts = get(this, 'props.data.allMarkdownRemark.edges')
+    const siteDescription = get(this, 'props.data.site.siteMetadata.description')
+    
 
     return (
       <div>
-        <Helmet title={siteTitle} />
+         <Helmet>
+        <title>{`${siteTitle} Developer and Speaker`}</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta property="og:title" content={`${siteTitle} Developer and Speaker`}/>
+        <meta property="og:description" content={siteDescription}/>
+        <meta property="og:image" content="http://www.johndpotts.com/profile-pic.png"/>
+        <meta property="og:url" content={`http://www.johndpotts.com/about`}/>
+        <meta name="twitter:card" content="summary"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:locale" content="en_US"/>
+         <link rel="canonical" href={`http://www.johndpotts.com/about`}/>
+        </Helmet>
         <h1 className="callout-txt" style={{ textAlign: 'center' }}>
           About Me
         </h1>

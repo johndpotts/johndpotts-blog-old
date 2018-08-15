@@ -1,7 +1,7 @@
 ---
 title: "Writing Clean(er) Code"
-date: "2018-08-06T05:15:09.284Z"
-path: "/2018-08-06-clean-code/"
+date: "2018-07-28"
+path: "/2018-07-28-clean-code/"
 featuredImage: "./clean-code.jpg"
 ---
 ![Clean code](./clean-code.jpg)
@@ -13,7 +13,7 @@ Some of the best advice I was given as a junior developer is this:
 One of the tough things about development is that there are hundreds of ways to accomplish the same thing. How should I structure and write code when I have so many options available, all of which would produce the desired outcome? The following are a few guidelines for keeping your code clean. Follow these, and hopefully you'll make whoever inherits your code a little bit happier!
 
 
-### 1. Use clear, desciptive names for functions and variables
+### 1. Use clear, descriptive names for functions and variables
 Comments are all well and good, but part of writing clean code is writing in a way that another developer can easily come behind you 
 and tell what the code does by looking at it. Your comments should serve to provide clarification, but ideally your code will be readable without comments. To this end, you should choose names that 
 are descriptive and clearly communicate your intent. For example, a variable that stores a user's age:
@@ -32,13 +32,13 @@ const userAge
 ```
 
 ### 2. Shorten your functions 
-This is, from my experience, an indicator of the experience level of the developer writing the code. When I first started coding, I put everything into long functions; it was easier for me to understand all the steps that were taking place this way. As you become more experienced, you will beging to realize that there are a number of benefits to separating your code into smaller functions that each handle only one task. The benefits of smaller functions include:
+This is, from my experience, an indicator of the experience level of the developer writing the code. When I first started coding, I put everything into long functions; it was easier for me to understand all the steps that were taking place this way. As you become more experienced, you will begin to realize that there are a number of benefits to separating your code into smaller functions that each handle only one task. The benefits of smaller functions include:
 - easier to test
 - easier to refactor
 - easier to see what each individual function is doing
 - less redundancy
 
-Code that is made up of more and shorter functions isn't necessarily easier to write, but it is far, far easier to make adjustments to and makes for a much smoother handoff to other developers.
+Code that is made up of more and shorter functions isn't necessarily easier to write, but it is far, far easier to make adjustments to and makes for a much smoother hand-off to other developers.
 
 
 ### 3. Use a consistent style

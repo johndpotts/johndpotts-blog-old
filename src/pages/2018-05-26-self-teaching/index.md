@@ -1,7 +1,7 @@
 ---
 title: "Why I Didn't Go To A Dev Bootcamp"
-date: "2018-07-05T22:12:03.284Z"
-path: "/2018-07-05-self-teaching/"
+date: "2018-05-26"
+path: "/2018-05-26-self-teaching/"
 featuredImage: "./sign.jpeg"
 ---
 
@@ -19,7 +19,7 @@ I had done enough searching to see that all of the information you'll learn in a
 4.  Mentorship by instructors
 5.  A network (and hopefully job leads) in the local area
 
-My thought process was simply this- would I, and could I, replicate those things. If so, would it be worth what I would pay to go to a boot camp? For me, the answer was yes.
+My thought process was simply this- would I, and could I, replicate those things? If so, would it be worth what I would pay to go to a boot camp? For me, the answer was yes.
 
 The decision I made isn't for everyone. I think well-run development boot camps have a great deal to offer, especially if you learn best in a classroom-type setting. But for me, it wasn't the best fit, and I'm glad to have gone through the effort of learning on my own.
 

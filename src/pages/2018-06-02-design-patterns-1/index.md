@@ -1,13 +1,11 @@
 ---
 title: "Design Patterns in JS: The Module Pattern"
-date: "2018-07-08T22:12:03.285Z"
-path: "/2018-07-08-design-patterns-1/"
+date: "2018-06-02"
+path: "/2018-06-02-design-patterns-1/"
 featuredImage: "./building-blocks.jpg"
 ---
 
 ![Building Blocks](./building-blocks.jpg)
-
-# The Module Pattern
 
 The Module Pattern is one of the most commonly used design patterns in Javascript. The module pattern exists to create privacy and separation in your code- keeping variables and functions out of the global scope.
 

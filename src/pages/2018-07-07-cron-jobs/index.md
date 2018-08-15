@@ -1,13 +1,11 @@
 ---
 title: "A Three-Minute Guide to Cron Jobs"
-date: "2018-07-25"
-path: "/2018-07-25-cron-jobs/"
+date: "2018-07-07"
+path: "/2018-07-07-cron-jobs/"
 featuredImage: "./clock.jpeg"
 ---
 
 ![Clock](./clock.jpeg)
-
-### Cron Jobs in a Nutshell
 
 I'm all about post-it notes, to-do lists, and setting reminders and calendar events in my phone. I find that getting tasks out into a system helps clear out head space to make me better able to concentrate on what I'm working on (and, let's face it- otherwise I'd forget stuff all the time.)
 

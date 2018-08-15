@@ -1,13 +1,15 @@
 ---
 title: "Front End Debugging: Working with Javascript in Chrome Dev Tools"
-date: "2018-07-19T05:15:09.284Z"
-path: "/2018-07-19-debugging-3/"
+date: "2018-06-23"
+path: "/2018-06-23-debugging-3/"
 featuredImage: "./debugging3.jpg"
 ---
 ![Debugging](./debugging3.jpg)
 
 
-Debugging JS in Chrome
+Debugging javascript errors in a webpage or application can be incredibly tedious and time-consuming; even more so if you're not using the right tools.
+
+
 
 ```js
 console.log(myObject);
@@ -15,7 +17,7 @@ console.log(this);
 console.log('ARGGGGGGHHHHH');
 ```
 
-If the above snippet looks familiar, it's time for you to become better aquainted with the JS debugging capabilities of Chrome Dev Tools.
+If the above snippet looks familiar, it's time for you to become better acquainted with the JS debugging capabilities of Chrome Dev Tools.
 
 This post is certainly not exhaustive, but I will hit on a few key things that you should know are available to you when debugging on the front end.
 

@@ -1,10 +1,10 @@
 ---
 title: "What Kindergarten Taught Me About Agile Development"
-date: "2018-08-01"
-path: "/2018-08-01-agile/"
+date: "2018-07-21"
+path: "/2018-07-21-agile/"
 featuredImage: "./playground.jpg"
 ---
-![Playing in the sandbox}](./playground.jpg)
+![Playing in the sandbox](./playground.jpg)
 
 
 If you were in a Kindergarten class in the U.S., you probably remember something at the front of your classroom- a brightly colored list of classroom rules. These rules were often read out loud by the class on a daily basis (at least at the beginning of the year.) The purpose of this rule list is to lay down expectations for all the students to abide by.
@@ -24,7 +24,7 @@ excellent finished product. Instead of a "my team vs your team" mentality, we're
 In everything from sizing and breaking up stories to completing work, it is essential that team members across disciplines work well with each other. This means seeing tasks not just from my own point of view as a developer, but in terms of how they affect the team as a whole.
 
 ### Rule #2: No Running In The Hallway
-Considering that periods of work in an agile environment are called "sprints," this one might seem a little counterintuitive. But why does Agile require so much pacing and segmenting of work? Why are there sprints in the first place? The problem with software development is that it's easy to let deadlines and requirements snowball to the point that individual developers, or an entire team, end up burning out in an effort to reach a goal. Sticking with a sustainable cadence does wonders both for the personal health of developers as well as for the long-term productivity of a team.
+Considering that periods of work in an agile environment are called "sprints," this one might seem a little counter-intuitive. But why does Agile require so much pacing and segmenting of work? Why are there sprints in the first place? The problem with software development is that it's easy to let deadlines and requirements snowball to the point that individual developers, or an entire team, end up burning out in an effort to reach a goal. Sticking with a sustainable cadence does wonders both for the personal health of developers as well as for the long-term productivity of a team.
 If you've ever gone for a walk with a little kid, you've seen that good pacing is the last thing that comes naturally to them. In order to ensure safety and the unity of a class as they move, most kindergartens enforce this rule- and similarly, our development teams must practice discipline in going through agile ceremonies, keeping true to sprint scope, and accurately refining work into a sustainable flow.
 
 ### Rule #3: Take Turns Speaking
