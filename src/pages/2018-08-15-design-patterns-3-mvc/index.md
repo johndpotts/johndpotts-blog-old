@@ -1,16 +1,16 @@
 ---
-title: "The MVC Pattern"
+title: "Design Patterns 3: The MVC Pattern"
 date: "2018-08-15"
-path: "/2018-08-15-mvc/"
+path: "/2018-08-15-design-patterns-3-mvc/"
 featuredImage: "./mvc.jpg"
 ---
 ![Learning](./mvc.jpg)
 
-One of the most common patterns in software design is called the MVC (Model - View - Controller). This pattern (and its many variations) exist across a wide spectrum of programming languages and frameworks.
+One of the most common patterns in software design is called the MVC Pattern(Model - View - Controller). This pattern (and its many variations) exist across a wide spectrum of programming languages and frameworks.
 The goal of the MVC pattern is to provide a separation of concerns between different parts of an application.
 
 ***
-### maintaining a separation of concerns means that each part of an application should be concerned with only its own area of responsibility
+### "Maintaining a separation of concerns means that each part of an application should be concerned with only its own area of responsibility."
 ***
 
 One of the easiest ways to conceptualize the MVC pattern is to think about a web app that is comprised of three parts: a database for storing information, client side code that renders a view, and a server that handles communication between the two. Each of these parts should handle their own responsibility well. In this example, the model doesn't need to know anything about the view; it is only concerned with the data. The view doesn't edit the data; its only concern is rendering the data in a way the user can understand.

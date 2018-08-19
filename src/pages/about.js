@@ -47,11 +47,10 @@ class BlogAbout extends React.Component {
           />
           <h2>Hi, I'm John.</h2>
           <p>
-            I started out in development in June of 2017. A self-taught coder, I
-            began my first full-time development role in November 2017 and am
-            currently a Front End Developer at Ally Financial. I work primarily
-            on the front end, but have experience in server side languages
-            (node, python and C#/.net) and databases as well. Outside of my
+           I'm a full stack web developer with a focus on front-end technologies.
+            I am currently working at Ally Financial in Charlotte, NC on the storefront development team.
+            I have experience in front-end JS frameworks (Angular and React), server-side languages
+            (node, python and C#/.net), and database management (postgres and mySQL) as well. Outside of my
             career as a developer I enjoy giving back to the tech community
             through open source and teaching.
           </p>

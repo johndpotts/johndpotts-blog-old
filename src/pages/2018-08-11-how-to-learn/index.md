@@ -10,14 +10,16 @@ In today's fast-paced marketplace, the ability to learn new things quickly is an
 
 My learning strategy has mostly been driven by necessity. Transitioning careers into web development without the help of a boot-camp or college degree has made it essential for me to be a quick study at unfamiliar topics. That wasn't just true in the beginning of my development career- I still learn new things on a weekly basis. Honestly, it's a part of this job that I love!
 
-This is much more of a pragmatic than an academic approach; in every area of life I've noticed that I pick things up better when I learn the "how" before the "why", and this list follows that pattern. Hopefully it will help you tackle new topics and take new steps in your journey as a developer.
+This is much more of a pragmatic than an academic approach; **in every area of life I've noticed that I pick things up better when I learn the "how" before the "why"**, and this list follows that pattern. Hopefully it will help you tackle new topics and take new steps in your journey as a developer.
 
 * *For each item, I'm including a challenge for you to try; I don't mean for you pick only one or to do all of at once. They are included as practical steps you can take to jump start your own learning; do as many as you want!*
 
 ### 1. Narrow Your Focus
-This is really tough- especially early on in development. The sheer number of web technologies is mind-boggling, and FOMO (fear of missing out) can lead developers to miss the focus it takes to learn one area well. A pattern that I see over and over is developers who skim articles and tutorials on dozens of things in any given week, but end up with no applicable learning to show for it.
-
-It takes discipline to slow down and learn one thing at a time - and that's exactly what you need to do. Start with the big picture - what is the next career step you want to take (or what is your goal in your current job?) Then narrow your learning goals down to the most valuable tools to reach your goal. That means if you're a front-end dev, you probably won't be doing that Python machine learning project you read about on Hackernoon. 
+This is really tough- especially early on in development. The sheer number of web technologies is mind-boggling, and FOMO (fear of missing out) can lead developers to miss the focus it takes to learn one area well. 
+***
+### A pattern that I see over and over is developers who skim articles and tutorials on dozens of things in any given week, but end up with no applicable learning to show for it.
+***
+It takes discipline to slow down and learn one thing at a time - and that's exactly what you need to do. Start with the big picture - what is the next career step you want to take (or what is your goal in your current job?) Then narrow your learning goals down to the most valuable tools to reach your goal. That means if you're a front-end dev, *you probably won't be doing that Python machine learning project you read about on Hackernoon.*
 
 This is an area that it can help to have input in- find a mentor or just a dev who is a little farther along than you, and get feedback on one area you should focus on. If there are a few important areas, choose ONE! Then make a goal in that area, and focus relentlessly on it. Don't skim other things, and don't go off on a tangent... like when you spent 4 hours exploring different database options when you were originally trying to learn how to make a node server, and ended up implementing neither. Been there, done that.
 
@@ -58,7 +60,7 @@ One of the problems with learning on your own is a lack of accountability. Takin
 
 You need to embrace the mindset of learning being a job. Your responsibilities at work are not optional - you likely have hard and fast deadlines, and accountability in place if you start slacking off. The same needs to be true of your independent learning goals; There needs to be an accountability structure to keep you honest.
 
-So how do you make learning a job? Set hard and fast goals, and put incentives in place to motivate you to reach them. Find ways to hold yourself accountable (reminders, friends who check up on you, etc) and stick to them!
+So how do you make learning a job? **Set hard and fast goals, and put incentives in place to motivate you to reach them.** Find ways to hold yourself accountable (reminders, friends who check up on you, etc) and stick to them!
 
 **The challenge: find a unique way to hold yourself accountable for reaching your goals. A few examples of this would be to hold off on a nice purchase or experience until you reach a learning goal, or maybe discontinue your Netflix account until you complete a project.**
 
