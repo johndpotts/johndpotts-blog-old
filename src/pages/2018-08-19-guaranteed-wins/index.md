@@ -1,6 +1,6 @@
 ---
 title: "Small Wins You Can Claim Today"
-date: "2018-08-20
+date: "2018-08-19"
 path: "/2018-08-19-guaranteed-wins/"
 featuredImage: "./wins.jpg"
 ---
@@ -31,19 +31,20 @@ who is a great teacher and coach?
 You might not have an official mentor at your workplace, but you absolutely have the power to seek out mentoring input from others. Find 
 people who know things you don’t or who are farther along than you, and learn from them! Trust me, when you intentionally and respectfully seek 
 out someone’s input, they will almost always be happy to give it. Seek out people who are great at things you want to be great at, and learn from 
-them - even If they aren’t on your team, which leads us to…
+them - even if they aren’t on your team, which leads us to…
 
-#### 3 Network
+#### 3. Network
 It never hurts to build relationships across your organization. Even if it's not someone you work with directly, taking time to
-get to know people from other teams can be an invaluable investment of time. I live by this simple rule- if the only time I speak with
-someone is when I'm asking them for something, I'm doing something wrong. Take the time to eat lunch with people, chat about 
-This is even more true for those of you who work remotely. **Remote work makes an intentional approach to relationships exponentially more important**;
+get to know people from other teams can be an invaluable investment of time. I live by this simple rule- **if the only time I speak with
+someone is when I'm asking them for something, I'm not approaching the relationship the right way**. Take time to catch up, listen, and care about people - it's not just good for your career, it's good for you as a person. 
+
+This win is even more important for those of you who work remotely. **Remote work makes an intentional approach to relationships exponentially more important**;
 since you don't physically walk by people in an office setting you need to be disciplined about pursuing relationship-building opportunities
 throughout the day.
 
 #### 4. Contribute to Your Team
 It doesn't matter if you work on a team of 2 or a team of 200- contributing to your team is one of the best (and simplest) wins you
-can get today. If you aren't open to taking on challenges outside of work that has been directly handed to you, you can miss opportunities to 
+can get today. If you aren't open to taking on challenges outside of the work that has been directly handed to you, you can miss opportunities to 
 aid your team in a big way.
 
 
@@ -63,8 +64,11 @@ your team as a whole - no matter how small - and it will be a huge win.
 Web developers need to live in a growth mindset. Part of what I love about the development community is that I'm surrounded by people
 who are continually growing in their craft. This leads to a fantastic mindset of open-source software and free tutorials - we're all learning,
 so why try to contain knowledge that could help someone else?
-No matter what you do, take time to grow in it. Read an article, run through a tutorial, skim some code, read some docs. You will be amazed how
-much progress you can make by deliberately working on learning for as little as 15 minutes a day. Learning is one of the best investments you can make, both for your company and for your own career.
+No matter what you do, take time to grow in it. Read an article, run through a tutorial, skim some code, read some docs. 
+***
+### You will be amazed how much progress you can make by deliberately working on learning for as little as 15 minutes a day.
+***
+ Learning is one of the best investments you can make, both for your company and for your own career.
 If you're a JS developer like me, one small step you can take is to sign up for the [JS Weekly](https://javascriptweekly.com/) newsletter!
 
 #### 6. Improve Your Personal Organization
