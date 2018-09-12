@@ -20,12 +20,12 @@ class BlogPostTemplate extends React.Component {
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta property="og:title" content={`${post.frontmatter.title} | ${siteTitle}`}/>
         <meta property="og:description" content={post.excerpt}/>
-        <meta property="og:image" content={`http://www.johndpotts.com${post.frontmatter.featuredImage.childImageSharp.sizes.src}`}/>
-        <meta property="og:url" content={`http://www.johndpotts.com${post.fields.slug}`}/>
+        <meta property="og:image" content={`https://www.johndpotts.com${post.frontmatter.featuredImage.childImageSharp.sizes.src}`}/>
+        <meta property="og:url" content={`https://www.johndpotts.com${post.fields.slug}`}/>
         <meta name="twitter:card" content="summary"/>
         <meta property="og:type" content="article"/>
         <meta property="og:locale" content="en_US"/>
-         <link rel="canonical" href={`http://www.johndpotts.com${post.fields.slug}`}/>
+         <link rel="canonical" href={`https://www.johndpotts.com${post.fields.slug}`}/>
         </Helmet>
         <h1 
         style={{
