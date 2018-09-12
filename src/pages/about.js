@@ -21,12 +21,12 @@ class BlogAbout extends React.Component {
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta property="og:title" content={`${siteTitle} Developer and Speaker`}/>
         <meta property="og:description" content={siteDescription}/>
-        <meta property="og:image" content="http://www.johndpotts.com/profile-pic.png"/>
-        <meta property="og:url" content={`http://www.johndpotts.com/about`}/>
+        <meta property="og:image" content="https://www.johndpotts.com/profile-pic.png"/>
+        <meta property="og:url" content={`https://www.johndpotts.com/about`}/>
         <meta name="twitter:card" content="summary"/>
         <meta property="og:type" content="article"/>
         <meta property="og:locale" content="en_US"/>
-         <link rel="canonical" href={`http://www.johndpotts.com/about`}/>
+         <link rel="canonical" href={`https://www.johndpotts.com/about`}/>
         </Helmet>
         <h1 className="callout-txt" style={{ textAlign: 'center' }}>
           About Me
