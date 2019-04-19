@@ -25,6 +25,7 @@ class BlogPostTemplate extends React.Component {
         <meta name="twitter:card" content="summary"/>
         <meta property="og:type" content="article"/>
         <meta property="og:locale" content="en_US"/>
+        <link rel="shortcut icon" href="/favicon.png"></link>
          <link rel="canonical" href={`https://www.johndpotts.com${post.fields.slug}`}/>
         </Helmet>
         <h1 
@@ -95,8 +96,7 @@ export const pageQuery = graphql`
       html
       excerpt
       fields {
-        slug
-        
+        slug 
       }
       frontmatter {
         title
