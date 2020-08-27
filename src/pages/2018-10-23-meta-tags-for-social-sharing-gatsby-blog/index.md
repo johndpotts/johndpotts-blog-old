@@ -83,7 +83,7 @@ Then access the fields in your GraphQL query through reference to the `post` obj
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta property="og:title" content={`${post.frontmatter.title} | ${siteTitle}`}/>
         <meta property="og:description" content={post.excerpt}/>
-        <meta property="og:image" content={`${rootUrl}${post.frontmatter.featuredImage.childImageSharp.sizes.src}`}/>
+        <meta property="og:image" content={`${rootUrl}${post.frontmatter.featuredImage.childImageSharp.fluid.src}`}/>
         <meta property="og:url" content={`${rootUrl}${post.fields.slug}`}/>
         <meta name="twitter:card" content="summary"/>
         <meta property="og:type" content="article"/>
@@ -98,7 +98,7 @@ There are a few important fields you'll be including here to produce attractive,
 
  - The `og:description` tag provides a brief description of your post. This is populated from the `post.excerpt` property.
 
- -  The `og:image` tag provides the preview image. This is populated by appending the `post.frontmatter.featuredImage.childImageSharp.sizes.src` property onto your root url. Remember, `sizes` returns an array, so you'll need to choose one size to feature (here I've just chosen the source image).
+ -  The `og:image` tag provides the preview image. This is populated by appending the `post.frontmatter.featuredImage.childImageSharp.fluid.src` property onto your root url. Remember, `sizes` returns an array, so you'll need to choose one size to feature (here I've just chosen the source image).
 
 
 You can poke through the rest of the fields to see what they're for, and feel free to search for more `og` or `twitter` tags you might want to add. Just remember to access the necessary info through your GraphQL query, then include it in a tag in the React-Helmet section of your blog template.

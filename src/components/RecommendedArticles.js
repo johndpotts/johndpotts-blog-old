@@ -49,7 +49,7 @@ export default (props) => (
                 recommended
                 featuredImage {
                     childImageSharp{
-                        sizes(maxWidth: 100) {
+                        fluid(maxWidth: 100) {
                             src
                         }
                     }
@@ -75,7 +75,6 @@ export default (props) => (
       .filter(a => a.slug !== currentArticleSlug);
 
       // (4.) Render it
-      console.log(recommendedArticles)
       return (
         <RecommendedArticlesComponent
           articles={recommendedArticles}

@@ -16,12 +16,7 @@ module.exports = {
         name: 'pages',
       },
     },
-    {
-      resolve: `gatsby-plugin-google-adsense`,
-      options: {
-        publisherId: `ca-pub-8769412610706351`
-      },
-    },
+   
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -32,9 +27,6 @@ module.exports = {
         {
          resolve: `gatsby-remark-images`,
          options: {
-           // It's important to specify the maxWidth (in pixels) of
-           // the content container as this plugin uses this as the
-           // base for generating different widths of each image.
            maxWidth: 420,
          },
        },
@@ -64,7 +56,6 @@ module.exports = {
         ],
       },
     },
-
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -72,7 +63,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-feed`,
-    'gatsby-transformer-remark',
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
 

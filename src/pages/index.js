@@ -52,7 +52,7 @@ class BlogIndex extends React.Component {
                  </Link>
                </h3>
                <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
-                <Img style ={{margin:'auto',maxWidth:'400px'}} fluid={node.frontmatter.featuredImage.childImageSharp.sizes} />
+                <Img style ={{margin:'auto',maxWidth:'400px'}} fluid={node.frontmatter.featuredImage.childImageSharp.fluid} />
                  </Link>
               <small>{node.frontmatter.date}</small>
               <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
@@ -87,8 +87,8 @@ export const pageQuery = graphql`
             title
             featuredImage {
               childImageSharp{
-                  sizes(maxWidth: 630) {
-                      ...GatsbyImageSharpSizes
+                  fluid(maxWidth: 630) {
+                      ...GatsbyImageSharpFluid
                   }
               }
           }

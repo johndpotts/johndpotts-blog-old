@@ -28,7 +28,7 @@ class BlogPostTemplate extends React.Component {
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta property="og:title" content={`${post.frontmatter.title} | ${siteTitle}`}/>
         <meta property="og:description" content={post.excerpt}/>
-        <meta property="og:image" content={`https://www.johndpotts.com${post.frontmatter.featuredImage.childImageSharp.sizes.src}`}/>
+        <meta property="og:image" content={`https://www.johndpotts.com${post.frontmatter.featuredImage.childImageSharp.fluid.src}`}/>
         <meta property="og:url" content={`https://www.johndpotts.com${post.fields.slug}`}/>
         <meta name="twitter:card" content="summary"/>
         <meta property="og:type" content="article"/>
@@ -36,7 +36,7 @@ class BlogPostTemplate extends React.Component {
         <link rel="shortcut icon" href="/favicon.png"></link>
          <link rel="canonical" href={`https://www.johndpotts.com${post.fields.slug}`}/>
         </Helmet>
-        <RecommendedArticles currentArticleSlug={post.fields.slug}></RecommendedArticles>
+        {/* <RecommendedArticles currentArticleSlug={post.fields.slug}></RecommendedArticles> */}
         <h1 
         style={{
           marginTop:rhythm(.5)
@@ -114,7 +114,7 @@ export const pageQuery = graphql`
         recommended
         featuredImage {
               childImageSharp{
-                  sizes(maxWidth: 1000) {
+                  fluid(maxWidth: 1000) {
                       src
                   }
               }

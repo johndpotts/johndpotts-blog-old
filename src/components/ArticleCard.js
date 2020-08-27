@@ -11,11 +11,10 @@ const ArticleCard = (props) => {
       updated,
       description,
     } = props;
-    console.log(props)
     return (
       <div>
         <Link to={slug} className="article-card">
-          <img src={featuredImage.childImageSharp.sizes.src}/>
+          <img src={featuredImage.childImageSharp.fluid.src}/>
         <div className="article-card__text-container">
           <span className="article-card__title">{title}</span>
           <span className="article-card__date">{date}</span>
