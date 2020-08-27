@@ -3,6 +3,7 @@ title: "Why Your Career is Wrecking Your Fitness (And Why it Shouldn't)"
 date: "2018-08-28"
 path: "/2018-08-28-fitness-and-career/"
 featuredImage: "./scale.jpg"
+recommended: "true"
 ---
 ![A scale](./scale.jpg)
 

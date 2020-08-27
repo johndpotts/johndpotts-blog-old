@@ -3,6 +3,7 @@ title: "A Dozen Ways to Improve Your Next Retrospective"
 date: "2018-09-06"
 path: "/2018-09-06-great-retrospectives/"
 featuredImage: "./retrospective.jpg"
+recommended: "true"
 ---
 ![retrospective](./retrospective.jpg)
 

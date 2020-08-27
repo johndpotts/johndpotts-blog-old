@@ -7,6 +7,8 @@ import Bio from '../components/Bio'
 import typography  from '../utils/typography'
 import {graphql} from 'gatsby'
 import Layout from '../components/Layout'
+import RecommendedArticles from '../components/RecommendedArticles'
+
 
 
 const rhythm = typography.rhythm;
@@ -34,6 +36,7 @@ class BlogPostTemplate extends React.Component {
         <link rel="shortcut icon" href="/favicon.png"></link>
          <link rel="canonical" href={`https://www.johndpotts.com${post.fields.slug}`}/>
         </Helmet>
+        <RecommendedArticles currentArticleSlug={post.fields.slug}></RecommendedArticles>
         <h1 
         style={{
           marginTop:rhythm(.5)
@@ -108,6 +111,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        recommended
         featuredImage {
               childImageSharp{
                   sizes(maxWidth: 1000) {

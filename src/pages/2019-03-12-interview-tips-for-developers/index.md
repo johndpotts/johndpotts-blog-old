@@ -3,6 +3,7 @@ title: "Interview Tips For Developers"
 date: "2019-03-12"
 path: "/2019-03-12-interview-tips-for-developers/"
 featuredImage: "./handshake.jpg"
+recommended: "true"
 ---
 ![handshake](./handshake.jpg)
 

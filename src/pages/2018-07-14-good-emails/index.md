@@ -3,6 +3,7 @@ title: "Writing Better Emails as a Developer"
 date: "2018-07-14"
 path: "/2018-07-14-writing-emails/"
 featuredImage: "./email.jpeg"
+recommended: "true"
 ---
 ![Email](./email.jpeg)
 

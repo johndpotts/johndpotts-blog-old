@@ -3,6 +3,7 @@ title: "Writing Clean(er) Code"
 date: "2018-07-28"
 path: "/2018-07-28-clean-code/"
 featuredImage: "./clean-code.jpg"
+recommended: "true"
 ---
 ![Clean code](./clean-code.jpg)
 

@@ -3,6 +3,7 @@ title: "Getting Better Technical Requirements"
 date: "2018-09-16"
 path: "/2018-09-16-getting-better-technical-requirements/"
 featuredImage: "./project-planning.jpg"
+recommended: "true"
 ---
 ![Planning a project with sticky notes](./project-planning.jpg)
 
