@@ -4,7 +4,10 @@ import get from 'lodash/get'
 import Helmet from 'react-helmet'
 import Img from 'gatsby-image'
 import Bio from '../components/Bio'
-import { rhythm } from '../utils/typography'
+import typography from '../utils/typography'
+import Layout from '../components/Layout'
+const rhythm = typography.rhythm;
+const scale = typography.scale
 
 class BlogIndex extends React.Component {
   render() {
@@ -14,7 +17,7 @@ class BlogIndex extends React.Component {
 
     return (
 
-
+    <Layout location={this.props.location}>
       <div>
 
         <Helmet>
@@ -55,6 +58,7 @@ class BlogIndex extends React.Component {
           )
         })}
       </div>
+      </Layout>
     )
   }
 }

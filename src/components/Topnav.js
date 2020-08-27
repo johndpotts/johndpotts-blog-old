@@ -1,9 +1,13 @@
 import React, { Component } from 'react'
 import Link from 'gatsby-link'
 import colors from '../utils/colors'
-import { rhythm } from '../utils/typography'
+import styles from '../styles/global.scss'
+import typography from '../utils/typography'
 
-class Navigation extends Component {
+const rhythm = typography.rhythm;
+const scale = typography.scale
+
+class Topnav extends Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -23,7 +27,7 @@ class Navigation extends Component {
   render() {
     return (
       <nav>
-        <div className="fullNav">
+        <div className="full-nav">
           <ul>
             <li>
               <Link to="/">John D Potts</Link>
@@ -62,7 +66,7 @@ class Navigation extends Component {
             </div>
           </ul>
         </div>
-        <div className="mobileNav">
+        <div className="mobile-nav">
           <ul>
             <li>
               <Link style={{ color: '#FFF' }} to="/">
@@ -165,4 +169,4 @@ class Navigation extends Component {
   }
 }
 
-export default Navigation
+export default Topnav

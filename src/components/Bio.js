@@ -1,7 +1,10 @@
 import React from 'react'
 import '../styles/css/font-awesome.css'
 import profilePic from './profile-pic.png'
-import { rhythm } from '../utils/typography'
+import typography from '../utils/typography'
+
+const rhythm = typography.rhythm;
+const scale = typography.scale
 
 class Bio extends React.Component {
   render() {

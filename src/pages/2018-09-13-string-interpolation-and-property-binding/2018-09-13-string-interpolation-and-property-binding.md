@@ -2,6 +2,6 @@
 title: "String Interpolation and Property Binding in Angular"
 date: "2018-09-13"
 path: "/2018-09-13-string-interpolation-and-property-binding/"
-featuredImage: "./angular.jpg"
+featuredImage: "./broadcast.jpg"
 ---
-![Broadcasting](./angular.jpg)
+![Broadcasting](./broadcast.jpg)

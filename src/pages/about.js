@@ -5,7 +5,10 @@ import Helmet from 'react-helmet'
 import profilePic from '../assets/profile-pic.jpg'
 
 import Bio from '../components/Bio'
-import { rhythm } from '../utils/typography'
+import typography from '../utils/typography'
+
+
+const rhythm = typography.rhythm;
 
 class BlogAbout extends React.Component {
   render() {

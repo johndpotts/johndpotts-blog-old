@@ -4,8 +4,12 @@ import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Bio from '../components/Bio'
-import { rhythm, scale } from '../utils/typography'
+import typography  from '../utils/typography'
+import {graphql} from 'gatsby'
 
+
+const rhythm = typography.rhythm;
+const scale = typography.scale
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark

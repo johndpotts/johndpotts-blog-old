@@ -7,6 +7,7 @@ module.exports = {
   },
   pathPrefix: 'www.johndpotts.com',
   plugins: [
+    'gatsby-plugin-sass',
     `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-source-filesystem`,

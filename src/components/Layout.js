@@ -1,11 +1,10 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import styles from '../styles/global.css'
-import { rhythm, scale } from '../utils/typography'
-import Navigation from '../components/Topnav'
+import typography from '../utils/typography'
+import Topnav from './Topnav'
 require('../styles/prism.css')
+const rhythm = typography.rhythm;
 
-class Template extends React.Component {
+class Layout extends React.Component {
   render() {
     const { location, children } = this.props
     let header
@@ -28,7 +27,7 @@ class Template extends React.Component {
     }
     return (
       <div>
-        <Navigation />
+        <Topnav />
         header()
         <div
           style={{
@@ -38,12 +37,12 @@ class Template extends React.Component {
             padding: `${rhythm(2)} ${rhythm(3 / 4)}`,
           }}
         >
-         
-          {children()}
+
+          {children}
         </div>
       </div>
     )
   }
 }
 
-export default Template
+export default Layout

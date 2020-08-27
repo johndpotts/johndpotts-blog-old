@@ -1,3 +1,4 @@
+
 .bio-container {
   display: flex;
   flex-direction: row;
@@ -55,8 +56,8 @@ a.no-underline:hover {
   text-decoration: none;
 }
 
-.fullNav {
-  display: flex;
+.full-nav {
+  display: none;
   position: fixed;
   top: 0;
   align-items: center;
@@ -65,38 +66,42 @@ a.no-underline:hover {
   padding: 0 0.5rem 0 0.5rem;
   width: 100%;
   list-style-type: none;
-  
-  z-index: 9998;
   height: 3.5rem;
+  z-index: 3;
 }
-.fullNav ul {
+   @media only screen and (min-width: 768px) {
+     .full-nav{
+  display: flex;
+     }
+}
+.full-nav ul {
   list-style-type: none;
   display: flex;
   margin: 0;
   padding: 0;
   width: 100%;
 }
-.fullNav li {
+.full-nav li {
   margin: 0;
 }
-.fullNav li img {
+.full-nav li img {
   display: inline-block;
   vertical-align: middle;
 }
-.fullNav ul div {
+.full-nav ul div {
   display: flex;
   justify-content: flex-end;
   margin-left: auto;
 }
 
-.fullNav ul div li {
+.full-nav ul div li {
   margin-left: 1.5rem;
 }
-.fullNav a {
+.full-nav a {
   color: #fff;
 }
 
-.mobileNav {
+.mobile-nav {
   display: flex;
   position: fixed;
   top: 0;
@@ -106,16 +111,18 @@ a.no-underline:hover {
   padding: 0 0.5rem 0 0.5rem;
   width: 100%;
   list-style-type: none;
-
-  z-index: 9998;
+  z-index: 3;
   height: 3.5rem;
 
-  @media only screen and (min-width: 768px) {
-    display: none;
+ 
+}
+@media only screen and (min-width: 768px) {
+  .mobile-nav{
+  display: none;
   }
 }
 
-.mobileNav ul {
+.mobile-nav ul {
   list-style-type: none;
   display: flex;
   margin: 0;
@@ -123,11 +130,11 @@ a.no-underline:hover {
   width: 100%;
 }
 
-.mobileNav li {
+.mobile-nav li {
   margin: 0;
 }
 
-.mobileNav li:last-child {
+.mobile-nav li:last-child {
   margin-left: auto;
   font-weight: 600;
   cursor: pointer;
@@ -150,7 +157,7 @@ a.no-underline:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 9999;
+  z-index: 3;
 }
 
 .mobileStyle ul {
