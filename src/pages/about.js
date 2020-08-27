@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 import profilePic from '../assets/profile-pic.jpg'
@@ -14,7 +13,7 @@ class BlogAbout extends React.Component {
   render() {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
     const siteDescription = get(this, 'props.data.site.siteMetadata.description')
-    
+    console.log(this.props)
 
     return (
       <div>
@@ -29,6 +28,7 @@ class BlogAbout extends React.Component {
         <meta name="twitter:card" content="summary"/>
         <meta property="og:type" content="article"/>
         <meta property="og:locale" content="en_US"/>
+        <link rel="shortcut icon" href="/favicon.png"></link>
          <link rel="canonical" href={`https://www.johndpotts.com/about`}/>
         </Helmet>
         <h1 className="callout-txt" style={{ textAlign: 'center' }}>
@@ -50,11 +50,12 @@ class BlogAbout extends React.Component {
           />
           <h2>Hi, I'm John.</h2>
           <p>
-           I'm a full stack web developer with a focus on front-end technologies.
-            I am currently working at Ally Financial in Charlotte, NC on the storefront development team.
-            I have experience in front-end JS frameworks (Angular and React), server-side languages
-            (node, python and C#/.net), and database management (postgres and mySQL) as well. Outside of my
-            career as a developer I enjoy giving back to the tech community
+           I'm a full stack software engineer with a focus on front-end technologies.
+            I am currently working at Duke Energy in Charlotte, NC in the Digital Transformations group. Prior to this I worked at Ally Financial
+            on the storefront team and as a freelance developer.
+            My current tech stack is Angular, Spring Boot, and SQL (with a few node scripts from time to time).
+           A few other frameworks / stacks I enjoy are React, Adobe Experience Manager, and Python/Flask.
+            Outside of my career as a developer I enjoy giving back to the tech community
             through open source and teaching.
           </p>
           <p>
@@ -79,3 +80,15 @@ class BlogAbout extends React.Component {
 }
 
 export default BlogAbout
+
+
+export const aboutQuery = graphql`
+  query aboutQuery {
+    site {
+      siteMetadata {
+        title,
+        description
+      }
+    }
+  }
+`

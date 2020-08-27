@@ -21,6 +21,9 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: `gatsby-plugin-sitemap`
+          },
+        {
          resolve: `gatsby-remark-images`,
          options: {
            // It's important to specify the maxWidth (in pixels) of
@@ -35,7 +38,7 @@ module.exports = {
             options: {
               classPrefix: "language-",
               inlineCodeMarker: null,
-              // This lets you set up language aliases.  For example,
+              // This lets you set up language alias`es.  For example,
               // setting this to '{ sh: "bash" }' will let you use
               // the language "sh" which will highlight using the
               // bash highlighter.
@@ -59,7 +62,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-125830855-1`,
       },
     },
     `gatsby-plugin-feed`,

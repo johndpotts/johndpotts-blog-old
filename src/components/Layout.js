@@ -17,7 +17,7 @@ class Layout extends React.Component {
     if (location.pathname == rootPath) {
       header = <div 
       style={{
-        paddingTop: rhythm(5)
+        paddingTop: rhythm(1)
       }}
       ></div>
     } else {

@@ -25,12 +25,13 @@ class BlogIndex extends React.Component {
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta property="og:title" content={`${siteTitle} Developer and Speaker`}/>
-        <meta property="og:description" content={siteDescription}/>
-        <meta property="og:image" content="https://www.johndpotts.com/profile-pic.png"/>
+        <meta property="og:description" content={`${siteDescription}`}/>
+        <meta property="og:image" content={`https://www.johndpotts.com/profile-pic.png`}/>
         <meta property="og:url" content={`https://www.johndpotts.com`}/>
         <meta name="twitter:card" content="summary"/>
         <meta property="og:type" content="article"/>
         <meta property="og:locale" content="en_US"/>
+        <link rel="shortcut icon" href="/favicon.png"/>
          <link rel="canonical" href={`https://www.johndpotts.com`}/>
         </Helmet>
         <Bio/>
@@ -69,7 +70,8 @@ export const pageQuery = graphql`
   query IndexQuery {
     site {
       siteMetadata {
-        title
+        title,
+        description
       }
     }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
