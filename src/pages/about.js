@@ -2,8 +2,7 @@ import React from 'react'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 import profilePic from '../assets/profile-pic.jpg'
-
-import Bio from '../components/Bio'
+import Layout from '../components/Layout'
 import typography from '../utils/typography'
 
 
@@ -13,10 +12,11 @@ class BlogAbout extends React.Component {
   render() {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
     const siteDescription = get(this, 'props.data.site.siteMetadata.description')
-    console.log(this.props)
 
     return (
-      <div>
+      <Layout location={this.props.location}>
+
+      <div style={{marginLeft:rhythm(1), marginRight:rhythm(1)}}>
          <Helmet>
         <title>{`${siteTitle} Developer and Speaker`}</title>
         <meta charset="utf-8"/>
@@ -75,6 +75,7 @@ class BlogAbout extends React.Component {
           </p>
         </div>
       </div>
+      </Layout>
     )
   }
 }

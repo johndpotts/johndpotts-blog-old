@@ -39,14 +39,7 @@ class Topnav extends Component {
               <li>
                 <Link to="/about">About</Link>
               </li>
-              <li>
-                <a
-                  className="no-underline"
-                  href="https://twitter.com/johndpotts"
-                >
-                  <i className="fa fa-twitter " /> &nbsp;&nbsp;
-                </a>
-              </li>
+              
               <li>
                 <a
                   className="no-underline"
@@ -133,15 +126,6 @@ class Topnav extends Component {
                     About
                   </Link>
                 </div>
-              </li>
-              <li>
-                <a
-                  style={{ color: '#FFF' }}
-                  className="no-underline"
-                  href="https://twitter.com/johndpotts"
-                >
-                  <i className="fa fa-twitter " /> &nbsp;&nbsp;
-                </a>
               </li>
               <li>
                 <a

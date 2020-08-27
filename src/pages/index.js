@@ -51,7 +51,7 @@ class BlogIndex extends React.Component {
                  </Link>
                </h3>
                <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
-                <Img style ={{margin:'auto',maxWidth:'400px'}} sizes={node.frontmatter.featuredImage.childImageSharp.sizes} />
+                <Img style ={{margin:'auto',maxWidth:'400px'}} fluid={node.frontmatter.featuredImage.childImageSharp.sizes} />
                  </Link>
               <small>{node.frontmatter.date}</small>
               <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />

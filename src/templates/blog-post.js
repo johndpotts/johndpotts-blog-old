@@ -6,6 +6,7 @@ import get from 'lodash/get'
 import Bio from '../components/Bio'
 import typography  from '../utils/typography'
 import {graphql} from 'gatsby'
+import Layout from '../components/Layout'
 
 
 const rhythm = typography.rhythm;
@@ -17,6 +18,7 @@ class BlogPostTemplate extends React.Component {
     const { previous, next } = this.props.pathContext
 
     return (
+      <Layout location={this.props.location}>
       <div>
         <Helmet>
         <title>{`${post.frontmatter.title} | ${siteTitle}`}</title>
@@ -81,6 +83,7 @@ class BlogPostTemplate extends React.Component {
           )}
         </ul>
       </div>
+      </Layout>
     )
   }
 }
