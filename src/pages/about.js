@@ -4,6 +4,8 @@ import Helmet from 'react-helmet'
 import profilePic from '../assets/profile-pic.jpg'
 import Layout from '../components/Layout'
 import typography from '../utils/typography'
+import { graphql } from "gatsby"
+
 
 
 const rhythm = typography.rhythm;

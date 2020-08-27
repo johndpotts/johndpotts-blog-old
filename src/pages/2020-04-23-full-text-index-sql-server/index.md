@@ -2,9 +2,9 @@
 title: "How to Setup and Use a SQL Server Full Text Index"
 date: "2020-04-23"
 path: "/2020-04-23-full-text-index-sql-server/"
-featuredImage: "./sass.png"
+featuredImage: "./sql.png"
 ---
-![SASS logo](./sass.png)
+![sql logo](./sql.png)
 
 
 If you've been in front end development for any amount of time you've likely heard about Sass (and similar CSS pre-processors like LESS and Stylus). Sass is what I generally use for writing styles for projects, so decided to write a quick guide to some of my favorite Sass features.

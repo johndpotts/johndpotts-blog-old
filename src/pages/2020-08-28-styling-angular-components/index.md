@@ -2,9 +2,9 @@
 title: "Quick Guide to Styling Angular Components"
 date: "2020-08-28"
 path: "/2020-08-28-styling-angular-components/"
-featuredImage: "./sass.png"
+featuredImage: "./styling.jpeg"
 ---
-![SASS logo](./sass.png)
+![styling picture](./styling.jpeg)
 
 
 If you've been in front end development for any amount of time you've likely heard about Sass (and similar CSS pre-processors like LESS and Stylus). Sass is what I generally use for writing styles for projects, so decided to write a quick guide to some of my favorite Sass features.

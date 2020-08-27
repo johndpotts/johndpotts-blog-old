@@ -6,6 +6,7 @@ import Img from 'gatsby-image'
 import Bio from '../components/Bio'
 import typography from '../utils/typography'
 import Layout from '../components/Layout'
+import { graphql } from "gatsby"
 const rhythm = typography.rhythm;
 const scale = typography.scale
 

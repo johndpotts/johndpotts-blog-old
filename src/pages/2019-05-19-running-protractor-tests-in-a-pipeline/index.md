@@ -2,9 +2,9 @@
 title: "Running Protractor Tests in a Pipeline"
 date: "2019-05-19"
 path: "/2019-05-19-running-protractor-tests-in-a-pipeline/"
-featuredImage: "./protractor.png"
+featuredImage: "./pipeline.png"
 ---
-![protractor logo](./protractor.png)
+![pipeline logo](./pipeline.png)
 
 
 If you've been in front end development for any amount of time you've likely heard about Sass (and similar CSS pre-processors like LESS and Stylus). Sass is what I generally use for writing styles for projects, so decided to write a quick guide to some of my favorite Sass features.

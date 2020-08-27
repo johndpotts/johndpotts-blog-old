@@ -17,6 +17,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-google-adsense`,
+      options: {
+        publisherId: `ca-pub-8769412610706351`
+      },
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
@@ -66,6 +72,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-feed`,
+    'gatsby-transformer-remark',
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
 

@@ -2,9 +2,9 @@
 title: "Well-Written Protractor Tests: Helper Functions"
 date: "2020-07-22"
 path: "/2020-07-22-protractor-helper-functions/"
-featuredImage: "./sass.png"
+featuredImage: "./protractor.png"
 ---
-![SASS logo](./sass.png)
+![protractor logo](./protractor.png)
 
 
 If you've been in front end development for any amount of time you've likely heard about Sass (and similar CSS pre-processors like LESS and Stylus). Sass is what I generally use for writing styles for projects, so decided to write a quick guide to some of my favorite Sass features.

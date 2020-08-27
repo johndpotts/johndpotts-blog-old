@@ -2,9 +2,9 @@
 title: "What are Angular Lifecycle Events?"
 date: "2020-03-19"
 path: "/2020-03-19-angular-lifecycle-events/"
-featuredImage: "./sass.png"
+featuredImage: "./lifecycle.png"
 ---
-![SASS logo](./sass.png)
+![lifecycle logo](./lifecycle.png)
 
 
 If you've been in front end development for any amount of time you've likely heard about Sass (and similar CSS pre-processors like LESS and Stylus). Sass is what I generally use for writing styles for projects, so decided to write a quick guide to some of my favorite Sass features.

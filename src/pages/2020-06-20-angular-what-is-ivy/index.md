@@ -2,9 +2,9 @@
 title: "What is the Angular Ivy Compiler?"
 date: "2020-06-20"
 path: "/2020-06-20-angular-what-is-ivy/"
-featuredImage: "./sass.png"
+featuredImage: "./ivy.png"
 ---
-![SASS logo](./sass.png)
+![ivy logo](./ivy.png)
 
 
 If you've been in front end development for any amount of time you've likely heard about Sass (and similar CSS pre-processors like LESS and Stylus). Sass is what I generally use for writing styles for projects, so decided to write a quick guide to some of my favorite Sass features.
